@@ -50,6 +50,12 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    /**
+     * 删除最外层的括号
+     * https://leetcode-cn.com/problems/remove-outermost-parentheses/
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(1)
+     */
     public String removeOuterParentheses(String S) {
         StringBuilder sb = new StringBuilder();
         int level = 0;
