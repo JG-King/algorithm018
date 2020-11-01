@@ -39,6 +39,13 @@ import java.util.HashSet;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    /**
+     * 独一无二的出现次数
+     * https://leetcode-cn.com/problems/unique-number-of-occurrences/
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(n)
+     *
+     */
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer,Integer> map = new HashMap<>();
         for(int num : arr){
