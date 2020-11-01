@@ -1,4 +1,10 @@
 class Solution {
+    /**
+     * 柱状图中最大矩形
+     * https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
+     * 时间复杂度 O(n)
+     * 空间复杂度O(n)
+     */
     public int largestRectangleArea(int[] heights) {
         int[] tmp = new int[heights.length + 2];
         //数组前后加入0，这样所有元素从栈中都可以弹出来计算面积
