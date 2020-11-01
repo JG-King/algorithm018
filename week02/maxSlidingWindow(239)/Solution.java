@@ -43,6 +43,13 @@ import java.util.LinkedList;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    /**
+     * 滑动窗口最大值
+     * https://leetcode-cn.com/problems/sliding-window-maximum/
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(n)
+     *
+     */
     public int[] maxSlidingWindow(int[] nums, int k) {
         int[] res = new int[nums.length - k + 1];
         LinkedList<Integer> deque = new LinkedList<>();
