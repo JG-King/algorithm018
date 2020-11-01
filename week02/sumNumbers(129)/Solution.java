@@ -8,6 +8,13 @@
  * }
  */
 class Solution {
+    /**
+     *  求根到叶子节点数字之和
+     *  https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/
+     *  时间复杂度 O(n)
+     *  空间复杂度 O(n)
+     *
+     */
     public int sumNumbers(TreeNode root) {
         return dfs(root,0);
     }
